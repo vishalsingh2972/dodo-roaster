@@ -1,4 +1,4 @@
-# 🦤 Dodo Roaster (`dodo-roaster`)
+# Dodo Roaster
 
 > **An event-driven AI Code Roast Bot demonstrating real-time pay-per-token metered billing and circuit-breaker wallet enforcement using the `dodopayments` SDK.**
 
