@@ -1,5 +1,7 @@
 # Dodo Roaster
 
+> 📌 **DevRel Take-Home Assignment Submission:** View the complete written launch pack, 2–3 minute video demo link, and channel strategy in [`SUBMISSION.md`](./SUBMISSION.md).
+
 > **An event-driven AI Code Roast Bot demonstrating real-time pay-per-token metered billing and circuit-breaker wallet enforcement using the `dodopayments` SDK.**
 
 `dodo-roaster` solves the fundamental margin-collapse problem faced by modern AI wrapper applications. Instead of locking heavy LLM users into flat-rate monthly subscriptions that drain OpenAI/Anthropic API keys, `dodo-roaster` meters token consumption on a per-event basis, tracks user credit balances in real time, and automatically triggers hosted top-up checkout flows when balance thresholds are breached.
@@ -50,9 +52,11 @@ flowchart TD
 
 ```text
 dodo-roaster/
-├── demo.ts             # Primary entry point & metered billing simulation loop
 ├── .env                # Local secrets configuration (DODO_PAYMENTS_API_KEY)
 ├── .env.example        # Environment variable template
+├── README.md           # Primary project documentation & architecture overview
+├── SUBMISSION.md       # Complete DevRel take-home submission pack (Parts 1–4)
+├── demo.ts             # Primary entry point & metered billing simulation loop
 ├── package.json        # Node.js dependencies & execution scripts
 └── tsconfig.json       # Strict TypeScript compiler configurations
 
@@ -75,7 +79,7 @@ dodo-roaster/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/dodo-roaster.git
+git clone [https://github.com/your-username/dodo-roaster.git](https://github.com/your-username/dodo-roaster.git)
 cd dodo-roaster
 
 # Install dependencies
@@ -127,7 +131,7 @@ Current Dodo Wallet Balance: $0.25
 ❌ [DODO METER ALERT] Balance exhausted!
    Remaining Balance: $0.05
    AI Bot Halted: "Top up $1.00 via Dodo to hear the rest of my roast!"
-   🔗 Live Checkout Link: https://checkout.dodopayments.com/buy/prd_test_123
+   🔗 Live Checkout Link: [https://checkout.dodopayments.com/buy/prd_test_123](https://checkout.dodopayments.com/buy/prd_test_123)
 
 ====================================================
 
