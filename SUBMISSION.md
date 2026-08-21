@@ -7,8 +7,7 @@
 ## Part 1 — The Explainer Video
 
 * **Feature Selected:** Usage-Based / Metered Billing & Prepaid Credit Balances (`dodopayments` SDK)
-* **Loom Video Link:** `[INSERT_YOUR_LOOM_LINK_HERE]`
-* **Open-Source Demo Repository:** `https://github.com/vishalsingh2972/dodo-roaster`
+* **Product Video Link:** [🎬 **Watch the Demo Video**](https://drive.google.com/file/d/1OszAYhdtfcAqotkxO5T4OmWe3W87z3cx/view?usp=sharing)
 
 ### Video Meta Note
 * **Target Audience:** Full-stack and AI engineers building token-based SaaS/LLM apps who are losing margins on flat-rate $20/month subscriptions due to heavy power users.
