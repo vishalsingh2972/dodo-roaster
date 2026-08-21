@@ -85,12 +85,16 @@
 > Initialize the client and fire usage events directly alongside your LLM stream output. Dodo automatically deducts credit from the customer's balance:
 > 
 > ```typescript
-> await dodo.usageEvents.create({
->   event_id: 'evt_' + Date.now(),
->   customer_id: 'cust_123',
->   event_name: 'llm_roast_tokens',
->   metadata: { tokens_used: '100' }
-> });
+> await dodo.usageEvents.ingest({
+>  events: [
+>    {
+>      event_id: 'evt_' + Date.now(),
+>      customer_id: 'cust_123',
+>      event_name: 'llm_roast_tokens',
+>      metadata: { tokens_used: '100' }
+>    }
+>  ]
+>});
 > ```
 
 **Tweet 4 (Circuit Breaker):**
